@@ -25,4 +25,4 @@ client.on("interactionCreate",(interaction) => {
     interaction.reply('Pong !');
 });
 
-client.login("MTIxMDYwMjE1NTA1NzA4NjUzNQ.GFZbCh.QwAAYJUJXIsIjpmbt3j1z3EN_bdIdvvL3O7WSI");
+client.login("*");
