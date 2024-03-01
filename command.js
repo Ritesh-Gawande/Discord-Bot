@@ -5,12 +5,12 @@ const command = [{
     description: "Replies with Pong",
 },];
 
-const rest = new REST({version: "10"}).setToken("MTIxMDYwMjE1NTA1NzA4NjUzNQ.GFZbCh.QwAAYJUJXIsIjpmbt3j1z3EN_bdIdvvL3O7WSI");
+const rest = new REST({version: "10"}).setToken("*");
 (async () => {  
 try {
   console.log('Started refreshing application (/) commands.');
 
-  await rest.put(Routes.applicationCommands('1210602155057086535'), {body: command});
+  await rest.put(Routes.applicationCommands('######'), {body: command});
 
   console.log('Successfully reloaded application (/) commands.');
 } catch (error) {
